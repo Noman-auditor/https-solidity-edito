@@ -543,3 +543,142 @@ button{
     padding:8px;
   }
 }
+.deployPanel{
+  padding:14px;
+}
+
+.deployPanel h2{
+  margin:0 0 7px;
+  font-size:18px;
+}
+
+.deployDescription{
+  color:#8190a5;
+  font-size:11px;
+  line-height:1.6;
+}
+
+.deployPanel label{
+  display:block;
+  margin-top:13px;
+  margin-bottom:6px;
+  color:#8291a6;
+  font-size:10px;
+}
+
+.deployPanel select,
+.deployPanel textarea{
+  width:100%;
+  padding:10px;
+  border:1px solid #263446;
+  border-radius:8px;
+  outline:none;
+  color:#dce7f3;
+  background:#101722;
+  font-size:11px;
+}
+
+.deployPanel textarea{
+  min-height:110px;
+  margin-top:10px;
+  resize:vertical;
+  font-family:monospace;
+}
+
+.connectedWallet{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:8px;
+  margin:12px 0;
+  padding:10px;
+  border:1px solid #245a43;
+  border-radius:9px;
+  background:#0c1b15;
+}
+
+.connectedWallet span{
+  color:#35e58b;
+  font-size:10px;
+  font-weight:800;
+}
+
+.connectedWallet code{
+  color:#a8b8c9;
+  font-size:9px;
+}
+
+.constructorTitle{
+  margin-top:16px;
+  color:#cbd6e3;
+  font-size:11px;
+  font-weight:800;
+}
+
+.parameter{
+  margin-top:7px;
+  padding:8px;
+  border:1px solid #202b3a;
+  border-radius:7px;
+  background:#0c131d;
+}
+
+.parameter strong{
+  display:block;
+  color:#d7e1ec;
+  font-size:10px;
+}
+
+.parameter small{
+  color:#718198;
+  font-size:9px;
+}
+
+.hint{
+  display:block;
+  margin-top:5px;
+  color:#65758b;
+  font-size:9px;
+}
+
+.deployStatus{
+  margin-top:14px;
+  padding:10px;
+  border:1px solid #202b3a;
+  border-radius:8px;
+  background:#0b1119;
+}
+
+.deployStatus strong{
+  color:#8291a6;
+  font-size:9px;
+}
+
+.deployStatus p{
+  margin:5px 0 0;
+  color:#a7b5c6;
+  font:10px/1.6 monospace;
+  word-break:break-word;
+}
+
+.resultBox{
+  margin-top:9px;
+  padding:10px;
+  border:1px solid #263446;
+  border-radius:8px;
+  background:#0d151f;
+}
+
+.resultBox span{
+  display:block;
+  margin-bottom:5px;
+  color:#718198;
+  font-size:9px;
+}
+
+.resultBox code{
+  display:block;
+  color:#35e58b;
+  font:9px/1.5 monospace;
+  word-break:break-all;
+}

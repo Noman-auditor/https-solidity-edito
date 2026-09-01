@@ -1,3 +1,7 @@
+import DeployPanel
+  from "./components/DeployPanel";
+
+
 import { useMemo, useState } from "react";
 import Editor from "@monaco-editor/react";
 
